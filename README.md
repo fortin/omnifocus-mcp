@@ -2,7 +2,7 @@
 
 Python MCP server for [OmniFocus](https://www.omnigroup.com/omnifocus/) on macOS. It talks to the running app through OmniJS (`evaluateJavascript`), not AppleScript, and is designed so an AI assistant can plan, capture, and organize work without dumping the whole database into context.
 
-It covers the surface of [OmniFocus MCP Enhanced](https://github.com/jqlts1/omnifocus-mcp-enhanced) and improves the parts that actually hurt: tool selection, date handling, large-database reads, mixed read/write annotations, and unsafe deletes.
+It covers the functionality of [OmniFocus MCP Enhanced](https://github.com/jqlts1/omnifocus-mcp-enhanced) and makes improvements where they were needed: tool selection, date handling, large-database reads, mixed read/write annotations, and unsafe deletes.
 
 ## Improvements over OmniFocus MCP Enhanced
 
